@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60D5157D-FEB6-9652-F35C-80277AEF0853" name="CLIENTE">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 01:06:44 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_13_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="F1D37126-0C08-38C2-F795-F6C0C53DAE8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="554ADF30-8EA1-DE29-34FD-ED24884F7C8A">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 01:07:00 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_13_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="F1D37126-0C08-38C2-F795-F6C0C53DAE8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="360BDB30-31CD-ADEB-2684-309FC9D1424D">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 01:07:08 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_13_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="F1D37126-0C08-38C2-F795-F6C0C53DAE8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA NACIMIENTO" id="C7DEC237-8988-5C28-A587-F17BC9BA4559">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 01:07:24 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_13_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="F1D37126-0C08-38C2-F795-F6C0C53DAE8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="A95BB9DF-CAD0-1CD9-C440-617919644597">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 01:07:32 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_13_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="F1D37126-0C08-38C2-F795-F6C0C53DAE8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DBB24AAA-29F6-BFB6-88EF-D726979976A1" name="CLIENTE PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 01:07:03 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_13_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="F1D37126-0C08-38C2-F795-F6C0C53DAE8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>554ADF30-8EA1-DE29-34FD-ED24884F7C8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

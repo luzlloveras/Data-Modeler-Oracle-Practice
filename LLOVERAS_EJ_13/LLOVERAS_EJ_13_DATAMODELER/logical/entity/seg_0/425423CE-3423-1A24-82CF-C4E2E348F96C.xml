@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="425423CE-3423-1A24-82CF-C4E2E348F96C" name="LLAMADA">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 01:08:17 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_13_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="F1D37126-0C08-38C2-F795-F6C0C53DAE8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FECHA" id="BD662DBB-A043-E375-E167-CFD2EF4E0ABC">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 01:12:22 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_13_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="F1D37126-0C08-38C2-F795-F6C0C53DAE8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA INICIO" id="4A602508-F14C-B6F2-3866-2892DD7F611E">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 01:12:33 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_13_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="F1D37126-0C08-38C2-F795-F6C0C53DAE8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA FIN" id="4F6D3283-B499-6451-5C99-0786E8F4DCFE">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 01:12:47 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_13_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="F1D37126-0C08-38C2-F795-F6C0C53DAE8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DURACION" id="CA754016-2DB3-8763-7E0F-7C24A71C6D08">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 01:12:53 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_13_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="F1D37126-0C08-38C2-F795-F6C0C53DAE8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="A156408E-E1DC-1B0D-0CFF-7ADCDA3026BB">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 01:39:46 UTC</createdTime>
+<generatorID>2F409280-49CC-C2D5-E8A6-E66C2946241F</generatorID>
+<ownerDesignName>LLOVERAS_EJ_13_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="F1D37126-0C08-38C2-F795-F6C0C53DAE8A" value="true"/>
+</engineerTo>
+<referedAttribute>6F071CAF-90DD-5859-3928-553038F8A44C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
