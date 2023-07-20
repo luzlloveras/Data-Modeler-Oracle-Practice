@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE696170-563B-2B7E-8337-0B8187EE3CCB" name="PALCO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>23AA5378-5C42-CA4E-2085-AF65CA047B59</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C4C31FC8-A422-7F2F-E2FE-B3477B050F12">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>489C3AA1-16C4-069A-4AC0-6CDD71D94F9F</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NRO_DE_SECCION" id="E9A1AFE9-C0C7-154D-9291-A63F158611D1">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>73E9E178-F7B4-8383-DF64-C94DAE403778</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIVEL" id="7115A0AB-3DEE-A5DB-A758-022A2B77ED85">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>E3B25295-FD4E-B01B-7EA0-47E48FA0AF01</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UBICACION" id="E579630E-5369-7313-B9C7-8F8DCFEB38A6">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>BD0D38DF-29DC-4CB2-56F9-A8098E6831EE</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_DE_ASIENTOS" id="3A8B617F-E3E2-29E1-C7BB-FAF99EBA2B51">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>25D0A704-DA8B-2837-8429-AE0C54144F20</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="EF7E5220-69B1-72D3-544B-D1F288DC570C">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>D83466DC-A24A-0925-2625-FBC9C3CEAFA9</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D912F1DE-4FFB-6AC1-EF0E-ABEFD6AE1041" name="PALCO_PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>53F3F7EE-41A6-7399-0B7D-6511832AC7FA</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4C31FC8-A422-7F2F-E2FE-B3477B050F12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

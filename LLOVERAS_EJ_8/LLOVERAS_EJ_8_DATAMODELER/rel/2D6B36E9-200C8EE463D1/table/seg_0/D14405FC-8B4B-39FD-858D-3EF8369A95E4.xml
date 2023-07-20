@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D14405FC-8B4B-39FD-858D-3EF8369A95E4" name="ALQUILER">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>3049A006-B512-760E-CDAB-97C80DD4973B</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FECHA" id="672F257D-524E-E1AF-3488-4BA08159BC50">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>3543B670-EA5B-51B3-D5C4-D32DE10530AA</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPAÑIA_ID" id="3B8D8254-1774-83C6-1A0D-A29BD2D96C0F">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>CC1AE122-4AAF-68DA-FD42-F849265DA2E6</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44F58607-33A1-0E62-217D-950F8B43082C" referredColumn="B4ED5BD5-946F-4E11-03EA-82774A4F4C38"/>
+</associations>
+</Column>
+<Column name="PALCO_ID" id="901D5577-03D8-4513-1F5B-DE7744394836">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>B8257D8E-A31E-6DA1-BE82-8E47503AA215</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D7F485F-0D0F-8D41-859F-E057B6AD7EFD" referredColumn="C4C31FC8-A422-7F2F-E2FE-B3477B050F12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99340ED9-4F88-D3EE-F8AA-F916C587F39B" name="ALQUILER_PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>52631078-85F8-EAF8-0977-7B1FA8766546</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="901D5577-03D8-4513-1F5B-DE7744394836"/>
+<colUsage columnID="3B8D8254-1774-83C6-1A0D-A29BD2D96C0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAAC766C-166B-60D5-E80E-C1CE7E3A40A7" name="ALQUILER_COMPAÑIA_FK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>FA44039C-E5F0-FE95-26FA-479BB760560E</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B8D8254-1774-83C6-1A0D-A29BD2D96C0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="080965A7-80D9-8A80-B280-E6149BB2FB3B" name="ALQUILER_PALCO_FK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>CB0D9AB1-9B0C-3672-9E56-22C7CE1FDD3C</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="901D5577-03D8-4513-1F5B-DE7744394836"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3049A006-B512-760E-CDAB-97C80DD4973B" name="ALQUILER">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:16:10 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FECHA" id="3543B670-EA5B-51B3-D5C4-D32DE10530AA">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:23:06 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="CC1AE122-4AAF-68DA-FD42-F849265DA2E6">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:23:31 UTC</createdTime>
+<generatorID>FA44039C-E5F0-FE95-26FA-479BB760560E</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<referedAttribute>CD4EB9C1-90D2-C045-44C3-607284B3DE48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="B8257D8E-A31E-6DA1-BE82-8E47503AA215">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:23:36 UTC</createdTime>
+<generatorID>CB0D9AB1-9B0C-3672-9E56-22C7CE1FDD3C</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<referedAttribute>489C3AA1-16C4-069A-4AC0-6CDD71D94F9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="52631078-85F8-EAF8-0977-7B1FA8766546" name="ALQUILER PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:23:42 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8257D8E-A31E-6DA1-BE82-8E47503AA215</attributeRef>
+<attributeRef>CC1AE122-4AAF-68DA-FD42-F849265DA2E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

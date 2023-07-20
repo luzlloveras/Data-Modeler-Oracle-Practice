@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C30434B0-FF0F-CBE4-3608-DCF33A8BF0AC" name="COMPAÑIA">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>4B50F1BC-1E67-D280-8BA9-640D7A226821</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B4ED5BD5-946F-4E11-03EA-82774A4F4C38">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>CD4EB9C1-90D2-C045-44C3-607284B3DE48</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="49240F71-8459-1982-DD33-513AADBB7053">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>97195A39-347A-A848-38BD-C39D075732AA</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="A6EC7971-0581-6615-CDAB-43F2B119B98B">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>01BE0A54-059E-D4B4-E157-B890052F64DC</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="D685775C-4C7E-34FC-4665-D699797430C0">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>465B4565-89BD-C30D-54F6-CE356B6476C3</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_DE_CONTACTO" id="C7AA15E8-88E5-C0C9-A412-89E06CAA5B06">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>E9C43E03-F38B-15A0-D44E-7CCB8683FA64</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGOTIPO" id="853022ED-71D8-06CD-7615-6305ADFAC7D9">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>C9EB17EC-E5BB-323C-0180-4CD7E9123298</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT031</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5E06F1D-DBBC-2932-2110-4D5DB93BC2AE" name="COMPAÑIA_PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>52D5B1E8-4542-BC85-B11D-C59AD51A9088</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4ED5BD5-946F-4E11-03EA-82774A4F4C38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

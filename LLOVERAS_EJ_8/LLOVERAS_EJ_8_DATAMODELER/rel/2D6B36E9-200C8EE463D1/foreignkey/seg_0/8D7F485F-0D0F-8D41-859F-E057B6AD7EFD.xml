@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D7F485F-0D0F-8D41-859F-E057B6AD7EFD" containerWithKeyObject="D14405FC-8B4B-39FD-858D-3EF8369A95E4" localFKIndex="080965A7-80D9-8A80-B280-E6149BB2FB3B" name="ALQUILER_PALCO_FK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:30:36 UTC</createdTime>
+<generatorID>CB0D9AB1-9B0C-3672-9E56-22C7CE1FDD3C</generatorID>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<referredTableLongName>PALCO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FE696170-563B-2B7E-8337-0B8187EE3CCB</referredTableID>
+<keyObject>D912F1DE-4FFB-6AC1-EF0E-ABEFD6AE1041</keyObject>
+<referredKeyID>D912F1DE-4FFB-6AC1-EF0E-ABEFD6AE1041</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

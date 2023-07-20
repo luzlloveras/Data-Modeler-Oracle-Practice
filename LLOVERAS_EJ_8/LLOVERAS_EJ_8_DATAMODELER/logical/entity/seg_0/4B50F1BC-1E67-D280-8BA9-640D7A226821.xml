@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B50F1BC-1E67-D280-8BA9-640D7A226821" name="COMPAÑIA">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:03:17 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="CD4EB9C1-90D2-C045-44C3-607284B3DE48">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:03:36 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="97195A39-347A-A848-38BD-C39D075732AA">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:12:24 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="01BE0A54-059E-D4B4-E157-B890052F64DC">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:14:23 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="465B4565-89BD-C30D-54F6-CE356B6476C3">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:14:31 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSONA DE CONTACTO" id="E9C43E03-F38B-15A0-D44E-7CCB8683FA64">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:14:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGOTIPO" id="C9EB17EC-E5BB-323C-0180-4CD7E9123298">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:15:29 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT031</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="52D5B1E8-4542-BC85-B11D-C59AD51A9088" name="COMPAÑIA PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:12:22 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_8_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2D6B36E9-4177-146C-6BFB-200C8EE463D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD4EB9C1-90D2-C045-44C3-607284B3DE48</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
