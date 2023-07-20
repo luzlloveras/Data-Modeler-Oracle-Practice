@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EF320A0-B7CD-3285-35C2-C28FD44C0606" name="DEPARTAMENTO ASIGNADO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:32:52 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FECHA" id="382B965C-E02C-3452-2EC4-1414F2A7192C">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:33:17 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA" id="49C65BAF-5E1E-8EC8-4867-2298FF7F7B6D">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:33:33 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="A8E8CD20-4DB3-E99B-F221-CA386EFEE252">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:33:45 UTC</createdTime>
+<generatorID>AE4DD454-C4DA-F68D-E434-FCEC430DFC05</generatorID>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<referedAttribute>74E539B5-DD18-9D8D-98BA-DC83C24FA29F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="BE5D981C-75CC-05A0-9548-0D861F7F8D7C">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:33:49 UTC</createdTime>
+<generatorID>3156E8EC-BF23-C999-9BE2-58D81677BDA8</generatorID>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<referedAttribute>A0373577-33F5-FA30-D0FF-D4EED3525285</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D766D6BC-C1F7-8B6C-1CF0-F68240E06306" name="DEPARTAMENTO ASIGNADO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:34:09 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8E8CD20-4DB3-E99B-F221-CA386EFEE252</attributeRef>
+<attributeRef>BE5D981C-75CC-05A0-9548-0D861F7F8D7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

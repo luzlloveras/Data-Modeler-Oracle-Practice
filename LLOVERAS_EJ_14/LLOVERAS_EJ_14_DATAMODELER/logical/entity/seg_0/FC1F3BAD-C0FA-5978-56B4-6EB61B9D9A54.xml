@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC1F3BAD-C0FA-5978-56B4-6EB61B9D9A54" name="PROVEEDOR">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:17:27 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="253A0C0D-26FD-8598-0267-AF91EE75EF0A">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:17:34 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METODO DE ENVIO" id="D758DAFC-5C01-DBEA-D540-AAD1C9D06867">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:17:56 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BE0D099-E102-BC00-6018-EDDF3E377177" name="PROVEEDOR PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:17:40 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>253A0C0D-26FD-8598-0267-AF91EE75EF0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

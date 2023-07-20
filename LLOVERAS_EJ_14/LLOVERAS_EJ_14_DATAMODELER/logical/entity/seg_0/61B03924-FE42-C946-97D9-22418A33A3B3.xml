@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61B03924-FE42-C946-97D9-22418A33A3B3" name="VENTA">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:36:04 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="9235F3EA-E9B2-4D4B-ECEB-FA339D1DBD78">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:38:09 UTC</createdTime>
+<generatorID>7FDF38C7-1966-9E81-C54F-B5EE4599640E</generatorID>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<referedAttribute>802F5879-D041-AE16-8DDB-62AE6BC734A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="7D42D5A3-5F10-B3D2-3205-8CDE6A48CDB3">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:38:19 UTC</createdTime>
+<generatorID>ECC33CB7-FD5F-79F3-85F8-773B94E1B803</generatorID>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<referedAttribute>4EA52423-1D41-835A-ADE8-747A44269159</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD" id="3E567B68-F6BE-A4D3-3B5A-0C40922FF57C">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:38:39 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="3418EDDA-E964-D7D8-0ED3-E7265BB01B83">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:38:50 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="0E7782AA-C9FA-B7C0-BC7F-D1B4D62048AB">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:40:53 UTC</createdTime>
+<generatorID>75C5147C-E60D-1530-CBE0-4FC159ED4CD0</generatorID>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2BF8604C-1C11-6665-DEEE-C62AD45B967B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DETALLE CLIENTE" id="492C282A-80AA-9627-654B-DD0C5026D64D">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:43:30 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="571510A4-00AA-0BA1-C4A3-B771013BC526" name="VENTA PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 02:38:15 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_14_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="09278E63-746C-3CF5-5B96-B0A708156CB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9235F3EA-E9B2-4D4B-ECEB-FA339D1DBD78</attributeRef>
+<attributeRef>7D42D5A3-5F10-B3D2-3205-8CDE6A48CDB3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
