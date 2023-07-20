@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47F61A1A-ADCB-8211-DE81-2AFF7FD303BB" name="DEPARTAMENTO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:24:52 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="4398FE9D-E062-E360-FCCD-7199F0A0DC17">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:26:42 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="729CFF29-895E-F48E-190D-FFC4E928B307">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:26:53 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73BE0BE1-7133-3EBE-64A8-C6E471F71507" name="DEPARTAMENTO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:26:51 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4398FE9D-E062-E360-FCCD-7199F0A0DC17</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

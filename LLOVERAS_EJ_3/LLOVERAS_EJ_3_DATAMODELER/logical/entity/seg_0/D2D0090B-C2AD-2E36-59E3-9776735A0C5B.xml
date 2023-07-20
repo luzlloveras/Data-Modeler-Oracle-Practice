@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2D0090B-C2AD-2E36-59E3-9776735A0C5B" name="EMPLEADO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:24:42 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="A4BC5B48-FC28-A385-823B-8F3B08803979">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:26:00 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="DA2354A4-8176-BC09-6FC4-5694EC1AEDB4">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:26:14 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO" id="F3BE9B19-215A-D694-AD39-D5639AB250C2">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:26:28 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUIT" id="C05DA6C4-C2B9-61DA-6DE8-2DF7321A180F">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:28:32 UTC</createdTime>
+<generatorID>6659A3A4-3A8F-595B-AEC0-94C463C50FD0</generatorID>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<referedAttribute>5F9D2F76-D120-A87A-8BB0-82DB94433325</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="A4E3D78D-70A6-279E-E638-07AA6BDE113F">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:29:46 UTC</createdTime>
+<generatorID>5A7F7655-FA2C-1BEB-B62A-99FFE6E189F0</generatorID>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<referedAttribute>4398FE9D-E062-E360-FCCD-7199F0A0DC17</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4881EAC1-7087-C937-F3BE-2FCCD0FB7F4F" name="EMPLEADO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:26:12 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4BC5B48-FC28-A385-823B-8F3B08803979</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

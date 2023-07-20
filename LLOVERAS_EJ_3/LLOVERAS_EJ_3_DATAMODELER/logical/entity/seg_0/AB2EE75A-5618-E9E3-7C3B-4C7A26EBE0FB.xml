@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB2EE75A-5618-E9E3-7C3B-4C7A26EBE0FB" name="EMPRESA">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:24:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUIT" id="5F9D2F76-D120-A87A-8BB0-82DB94433325">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:25:17 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="C16E8FC9-6DF1-BA1C-273A-BBF4E8AC4B9C">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:25:39 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CFF403B6-18B8-7183-6A3A-585040884D2B" name="EMPRESA PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:25:36 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5F9D2F76-D120-A87A-8BB0-82DB94433325</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

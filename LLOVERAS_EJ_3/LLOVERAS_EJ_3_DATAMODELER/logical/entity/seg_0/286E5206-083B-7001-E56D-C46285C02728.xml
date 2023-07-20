@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="286E5206-083B-7001-E56D-C46285C02728" name="ASIGNACION">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:31:00 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="316CB207-8FF1-5418-0D1D-644C2FBA513B">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:31:10 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="39135412-91EC-29A5-C0EA-1AA7F81CEFAC">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:31:39 UTC</createdTime>
+<generatorID>82757D46-5E77-DBBD-A69B-32396FCA84F5</generatorID>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<referedAttribute>A4BC5B48-FC28-A385-823B-8F3B08803979</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="28BEB82D-74B3-457B-8F52-2BB19808A572">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:32:41 UTC</createdTime>
+<generatorID>3CC78CEE-EFC6-1895-15E4-AA5590C35B74</generatorID>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<referedAttribute>87BB2589-97E0-9587-4771-62BE98BC2410</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="567B348C-CDBE-0CB2-5F53-4C3CDC6CE287" name="ASIGNACION PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:31:28 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_3_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="BF7DD46D-9534-047E-44C3-C6C8D1420798" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>316CB207-8FF1-5418-0D1D-644C2FBA513B</attributeRef>
+<attributeRef>39135412-91EC-29A5-C0EA-1AA7F81CEFAC</attributeRef>
+<attributeRef>28BEB82D-74B3-457B-8F52-2BB19808A572</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
