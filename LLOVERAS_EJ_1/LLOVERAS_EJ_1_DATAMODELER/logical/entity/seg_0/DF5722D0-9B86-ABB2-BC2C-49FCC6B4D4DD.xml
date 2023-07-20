@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF5722D0-9B86-ABB2-BC2C-49FCC6B4D4DD" name="EMPLEADO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 20:18:21 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="AEF2EB6C-646E-EDAC-E651-3C1D5E10436F">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 20:18:43 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="00FF030C-90F5-0D4B-1E06-15079D26E821">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 20:19:24 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO" id="915440EA-CCA3-0D94-6E26-61B21660C9CE">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 20:19:38 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="F299161B-E212-E2D4-E1A1-7898E10ADB87">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 20:22:17 UTC</createdTime>
+<generatorID>768EB3B8-42A3-10BD-A946-06DE0023C129</generatorID>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<referedAttribute>AA179E93-836D-F387-8D50-FAFA65C572A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="833C8BC6-3683-11B4-4718-8621FC11FE20" name="EMPLEADO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 20:19:13 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEF2EB6C-646E-EDAC-E651-3C1D5E10436F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

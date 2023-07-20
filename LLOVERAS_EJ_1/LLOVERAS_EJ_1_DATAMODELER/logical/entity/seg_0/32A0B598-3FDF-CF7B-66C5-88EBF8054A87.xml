@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32A0B598-3FDF-CF7B-66C5-88EBF8054A87" name="ALOJAMIENTO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:11:20 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="02E2BDB0-5A2E-2137-F467-FBD18DB9EC37">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:11:28 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="C41C4322-0B05-7330-5AEA-69EAA68C5943">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:11:53 UTC</createdTime>
+<generatorID>E96BFB24-0856-C2DD-125D-9786F9FEF63A</generatorID>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<referedAttribute>129D5D46-1784-C092-C3CB-76C3B4A25AC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="BDD81B27-E826-5F10-3005-186D1AD2BA5D">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:12:10 UTC</createdTime>
+<generatorID>8D66D3D1-DC8A-E8AC-A2B9-F4B28616FA72</generatorID>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<referedAttribute>70FAC583-C9A2-E1AD-E05E-443B3E9606CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6BAA9B3E-DEF8-0BD6-050F-E87F469EA065" name="ALOJAMIENTO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:11:39 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02E2BDB0-5A2E-2137-F467-FBD18DB9EC37</attributeRef>
+<attributeRef>C41C4322-0B05-7330-5AEA-69EAA68C5943</attributeRef>
+<attributeRef>BDD81B27-E826-5F10-3005-186D1AD2BA5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

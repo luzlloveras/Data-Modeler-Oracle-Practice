@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2640976-B1F9-E591-0F92-352A46BDA900" name="COMUNICACION">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:15:24 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="619C722A-F6F0-D712-AD50-369002C2ABE9">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:15:58 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="3C214FC4-3CF2-EADA-07E4-F5F8C33A69FD">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:16:18 UTC</createdTime>
+<generatorID>3DC8B7E3-1028-3B34-AC34-A3122C72B196</generatorID>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<referedAttribute>BE54A5FC-049B-3A00-4CA8-917676924032</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="6E7B61E1-2D84-85CF-CF22-A778080D69C6">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:16:22 UTC</createdTime>
+<generatorID>33401F17-5E1B-239F-66EE-13E018A36499</generatorID>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<referedAttribute>82E6DC5E-BC5A-A508-EF43-7588DDCAB458</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35AF5993-1355-A002-3C62-99278CAA489D" name="COMUNICACION PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:16:06 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_1_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="218BBB59-74A9-2A52-C94D-FC0765EE8BCF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>619C722A-F6F0-D712-AD50-369002C2ABE9</attributeRef>
+<attributeRef>3C214FC4-3CF2-EADA-07E4-F5F8C33A69FD</attributeRef>
+<attributeRef>6E7B61E1-2D84-85CF-CF22-A778080D69C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
