@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14268B17-3D69-C06A-8DDF-B2ECDDF8A0B2" name="SOCIO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 21:43:39 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_2_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="AD43FA0A-EE0E-25E6-6D6C-7B267E948281" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="BEC12A20-E672-98DE-7AF8-115824032181">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 21:44:05 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_2_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="AD43FA0A-EE0E-25E6-6D6C-7B267E948281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="6F604D4B-CB90-241C-C2FC-955E0EB7120C">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:02:41 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_2_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="AD43FA0A-EE0E-25E6-6D6C-7B267E948281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO" id="DF88B1EB-1C6C-E8B7-DB13-6984394DEF71">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:02:57 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_2_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="AD43FA0A-EE0E-25E6-6D6C-7B267E948281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="27FBF190-F676-FF79-C5A5-19B96661E1E6">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:06:30 UTC</createdTime>
+<generatorID>EDDDB44B-A993-A198-DA82-45A75DC09120</generatorID>
+<ownerDesignName>LLOVERAS_EJ_2_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="AD43FA0A-EE0E-25E6-6D6C-7B267E948281" value="true"/>
+</engineerTo>
+<referedAttribute>93502EF4-7EFD-139B-1F4F-1FC4F21DB8B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50922AA8-115B-5E1D-1DED-02C925F72B9E" name="SOCIO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 21:44:12 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_2_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="AD43FA0A-EE0E-25E6-6D6C-7B267E948281" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BEC12A20-E672-98DE-7AF8-115824032181</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

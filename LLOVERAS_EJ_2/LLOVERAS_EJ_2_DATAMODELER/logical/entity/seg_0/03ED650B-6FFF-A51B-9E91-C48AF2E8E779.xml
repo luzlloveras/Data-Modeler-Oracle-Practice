@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03ED650B-6FFF-A51B-9E91-C48AF2E8E779" name="ASOCIACION">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 21:57:28 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_2_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="AD43FA0A-EE0E-25E6-6D6C-7B267E948281" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="0356D676-1C12-4133-B64B-13ACB4A97FA7">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 21:57:36 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_2_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="AD43FA0A-EE0E-25E6-6D6C-7B267E948281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="75808FBE-7A09-04BC-4CF6-022E3995DC8B">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 21:59:06 UTC</createdTime>
+<generatorID>E72BD15E-685B-5EA6-7377-D029826EEBF3</generatorID>
+<ownerDesignName>LLOVERAS_EJ_2_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="AD43FA0A-EE0E-25E6-6D6C-7B267E948281" value="true"/>
+</engineerTo>
+<referedAttribute>93502EF4-7EFD-139B-1F4F-1FC4F21DB8B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUIL" id="A93109D7-5110-926D-E4F4-A98CE4C01733">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 22:00:05 UTC</createdTime>
+<generatorID>9CE5E88B-240F-775C-6605-D13C165418AD</generatorID>
+<ownerDesignName>LLOVERAS_EJ_2_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="AD43FA0A-EE0E-25E6-6D6C-7B267E948281" value="true"/>
+</engineerTo>
+<referedAttribute>EA7D6F9E-F6A9-AF2D-2AC8-C48754C60BE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E15A164-11E7-F389-B854-0DE8118930BF" name="ASOCIACION PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 21:57:46 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_2_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="AD43FA0A-EE0E-25E6-6D6C-7B267E948281" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0356D676-1C12-4133-B64B-13ACB4A97FA7</attributeRef>
+<attributeRef>75808FBE-7A09-04BC-4CF6-022E3995DC8B</attributeRef>
+<attributeRef>A93109D7-5110-926D-E4F4-A98CE4C01733</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

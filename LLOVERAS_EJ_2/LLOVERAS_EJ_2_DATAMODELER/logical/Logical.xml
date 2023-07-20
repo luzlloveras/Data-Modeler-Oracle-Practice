@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="CC2D4139-B22A-7DD7-85F8-51221E3FDDBF" mainViewID="4B54F1A9-8806-F32C-ED9B-64AD1C9C8533">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-01 21:28:43 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_2_DATAMODELER</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
