@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="EE8C6E5C-05D3-A30F-B98A-E9E89AF55257">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:46:03 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

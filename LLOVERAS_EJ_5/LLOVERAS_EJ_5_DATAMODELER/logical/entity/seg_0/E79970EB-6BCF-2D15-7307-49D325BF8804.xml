@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E79970EB-6BCF-2D15-7307-49D325BF8804" name="ENTRADA">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:16:09 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="2639B469-A7B0-096B-E1AD-067FEE6C921E">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:16:28 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="0C8BCE87-C1D1-CC2A-7B0B-C8D2AAB6D351">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:22:22 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="6EA5AFB0-F0CE-F1AF-EC89-98DA415403E2">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:22:32 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIO" id="0352E378-DA43-EC95-DA11-3C5A4FA8BF34">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:22:41 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="C7F4F1D5-E9F3-264E-6004-BEE0BA572F84">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:30:21 UTC</createdTime>
+<generatorID>EDA65F08-77F8-C8E8-4639-FA8E711831B9</generatorID>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<referedAttribute>450C6733-1CA5-2019-78F9-755C0E3277A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29B3C5ED-C60D-8C14-A7CC-90717C2E7A65" name="ENTRADA PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:16:44 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2639B469-A7B0-096B-E1AD-067FEE6C921E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

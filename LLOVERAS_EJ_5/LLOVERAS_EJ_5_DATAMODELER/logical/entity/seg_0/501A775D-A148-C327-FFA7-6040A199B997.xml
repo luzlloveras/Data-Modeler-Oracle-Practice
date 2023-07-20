@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="501A775D-A148-C327-FFA7-6040A199B997" name="SOLICITUD ESPECTACULO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:23:44 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="450C6733-1CA5-2019-78F9-755C0E3277A9">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:24:15 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="15A8B31E-831B-839A-856C-F6D46B8CF469">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:24:42 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="FA8DE22D-4FC7-B5DE-540B-AB3C1DB617D9">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:29:30 UTC</createdTime>
+<generatorID>9892ECB1-306F-64EE-8597-04B140784ADA</generatorID>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<referedAttribute>1D10AB55-9B9D-C66F-7F8B-8EB8FA0D420C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="6434BC8D-6447-0F84-CA69-539068C45467">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:29:33 UTC</createdTime>
+<generatorID>A192E961-DB7E-2D1C-7FE8-D9721BD20F10</generatorID>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<referedAttribute>9B533C98-6826-87EA-836A-83BF8D8E959C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="202652CD-B053-2A90-3BC9-4802A78A0CF9">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:29:37 UTC</createdTime>
+<generatorID>0333790C-5652-A651-B37C-9C495DC835BD</generatorID>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<referedAttribute>599785A7-F18F-6285-03EF-D2A208065B05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID4" id="CF33AEB3-00AF-1573-7682-E8599589CBA1">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:30:39 UTC</createdTime>
+<generatorID>EDA65F08-77F8-C8E8-4639-FA8E711831B9</generatorID>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<referedAttribute>2639B469-A7B0-096B-E1AD-067FEE6C921E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="437A6B41-7D3F-54EF-507F-C8E07C4D31D7" name="SOLICITUD ESPECTACULO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 15:24:22 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_5_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="6726413D-D1D0-D65A-CC46-FEE899009572" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>450C6733-1CA5-2019-78F9-755C0E3277A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
