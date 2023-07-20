@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F62B5C1-E587-3826-58D5-9D5541FAA842" name="COCINERO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:29:16 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="E577CB84-3023-A4E4-AF69-2AC3FF543503">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:31:27 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA ULTIMA CAPACITACION" id="162EF37A-E42D-50E2-37E7-E403F38B26FA">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:31:34 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE33FA53-CC35-F641-788F-EDF784B374AC" name="COCINERO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:31:33 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E577CB84-3023-A4E4-AF69-2AC3FF543503</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

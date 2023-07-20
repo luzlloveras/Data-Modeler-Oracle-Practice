@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE473E97-82C9-E857-3A6A-44DBA841EFDB" name="MENU PROMOCIONAL">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:23:00 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="B3E72385-B087-99C6-4F5A-3169C9E1BACC">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:23:08 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="A5790D1A-7FE4-E3CD-24B3-9F09B7E9F393">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:23:21 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA INICIO" id="3692A3AE-880D-FCF9-9F37-4BDE7B62BF54">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:23:31 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA FIN" id="A260A60A-E2DB-02DC-6D00-1E9A5EF93BD7">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:23:40 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGALO" id="8BA14DA6-4834-F1BA-1F69-6CBB9D870AC6">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:23:51 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89AC4A8D-A8CD-5D8C-A072-05108E63ED65" name="MENU PROMOCIONAL PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:23:15 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3E72385-B087-99C6-4F5A-3169C9E1BACC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

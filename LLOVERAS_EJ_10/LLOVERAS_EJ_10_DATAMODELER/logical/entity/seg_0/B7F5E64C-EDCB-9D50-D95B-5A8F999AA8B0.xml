@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7F5E64C-EDCB-9D50-D95B-5A8F999AA8B0" name="CLIENTE">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:18:51 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="4D20122C-13AF-CB47-3203-F5BE30D2BD4D">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:19:00 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="6F69C48E-72F2-3B56-1BB6-5C5C97099FF6">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:19:08 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO" id="DED90630-0D95-33F7-7E5B-D4FF71D0E184">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:19:23 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="2D8554AE-C09E-97CE-020B-C1D64ABBFA7F">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:19:33 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIUDAD" id="D394C9A6-7241-B5DB-313B-CBA46366F195">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:19:46 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROVINCIA" id="64646FD6-1807-F191-A916-901A83A5D1A3">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:19:55 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO POSTAL" id="8775CAA2-35EF-F81F-1D78-F09C1F86FD23">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:20:09 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="FFD0AFCF-4F31-F643-6ACE-5C103C9E0F03">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:20:23 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D090972B-070F-9593-7FA3-26811231BCC1" name="CLIENTE PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:19:05 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D20122C-13AF-CB47-3203-F5BE30D2BD4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

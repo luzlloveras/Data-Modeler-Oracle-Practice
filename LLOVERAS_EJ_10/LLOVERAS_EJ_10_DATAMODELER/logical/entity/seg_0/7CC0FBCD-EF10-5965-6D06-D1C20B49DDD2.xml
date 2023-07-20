@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CC0FBCD-EF10-5965-6D06-D1C20B49DDD2" name="ASIGNACION DE TURNO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:24:49 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FECHA DE ASIGNACION" id="4AEA4DCC-569C-6FAF-55AD-C79342CA09D6">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:24:58 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LUGAR" id="07C5B89F-A5B4-9AE9-AF38-4C3B917C199E">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:25:12 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO" id="4758845A-4A17-230E-7FB9-DF71246B20D7">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:51:19 UTC</createdTime>
+<generatorID>2768F0C1-6B66-CF7D-9BA6-A9FEC88B69C4</generatorID>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<referedAttribute>E5DA479C-5FBB-A386-294F-D1F6DF24E34D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="5EFBA2B4-2F54-DA5E-B4EF-71B03302BFB8">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:51:42 UTC</createdTime>
+<generatorID>5539672F-8463-13C4-D1E8-2B5779243280</generatorID>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<referedAttribute>DC837E01-A206-3393-D952-413FD5321258</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91275C3D-2312-D73E-F2B2-6564934D484E" name="ASIGNACION DE TURNO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:25:08 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4AEA4DCC-569C-6FAF-55AD-C79342CA09D6</attributeRef>
+<attributeRef>4758845A-4A17-230E-7FB9-DF71246B20D7</attributeRef>
+<attributeRef>5EFBA2B4-2F54-DA5E-B4EF-71B03302BFB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

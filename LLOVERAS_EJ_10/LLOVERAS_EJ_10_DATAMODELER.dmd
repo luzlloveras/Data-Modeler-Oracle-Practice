@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="LLOVERAS_EJ_10_DATAMODELER" id="59B60C05-3A47-6A31-E4F1-739D546A64BD" version="3.5">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:00:51 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>59B60C05-3A47-6A31-E4F1-739D546A64BD</designId>
+</OSDM_Design>

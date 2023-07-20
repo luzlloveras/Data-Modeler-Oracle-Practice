@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="4CB9A5A2-2FE6-45D3-017B-C57F351930A9" name="Arc_1">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 17:34:17 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_10_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="2DDB04C8-31E4-E213-AFD5-3481D56F0494" value="true"/>
+</engineerTo>
+<entity>65F720DC-A810-3406-31F4-44EDA7DC554B</entity>
+<relations>
+<relationID>CDA9BB84-0167-AD48-100B-A7219E41110A</relationID>
+<relationID>B356E7DF-EE35-ACE9-EB80-95602A1062AC</relationID>
+<relationID>27C268E2-98F5-8716-AAB1-954F585113ED</relationID>
+</relations>
+</Arc>
