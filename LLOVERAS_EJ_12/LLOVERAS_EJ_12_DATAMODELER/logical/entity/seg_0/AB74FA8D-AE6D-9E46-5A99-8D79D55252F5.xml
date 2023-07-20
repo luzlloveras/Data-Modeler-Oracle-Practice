@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB74FA8D-AE6D-9E46-5A99-8D79D55252F5" name="ASIGNACION PILOTO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:55:52 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FECHA" id="0EB4DCE3-9F24-E999-7869-4DF83C5D1915">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:56:11 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID " id="A4FE62CB-97D6-D79B-285E-2E1DBC4A759F">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:58:58 UTC</createdTime>
+<generatorID>5FB342BC-E440-B05B-3989-45796E38BAC0</generatorID>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<referedAttribute>B35A318E-84F5-3B10-67D7-84209A225033</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO" id="5F4A711A-D090-782D-9388-01C0FC467C2E">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:59:39 UTC</createdTime>
+<generatorID>24EA503D-D590-5EB5-1098-64CB16054D61</generatorID>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<referedAttribute>15748D33-8582-0BEB-9AE0-0ADD7DE2D716</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA" id="8BE946BC-BA3D-F6D8-919F-769097D43FA8">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 00:00:40 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54DB8060-E70D-3924-80CB-E0B747C160EA" name="ASIGNACION PILOTO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:59:00 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4FE62CB-97D6-D79B-285E-2E1DBC4A759F</attributeRef>
+<attributeRef>5F4A711A-D090-782D-9388-01C0FC467C2E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

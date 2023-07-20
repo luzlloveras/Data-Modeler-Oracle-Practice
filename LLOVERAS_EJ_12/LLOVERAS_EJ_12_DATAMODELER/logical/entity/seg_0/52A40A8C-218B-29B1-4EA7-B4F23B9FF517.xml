@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52A40A8C-218B-29B1-4EA7-B4F23B9FF517" name="PILOTO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:38:25 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="15748D33-8582-0BEB-9AE0-0ADD7DE2D716">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:38:30 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO" id="D30263DB-0E30-B74B-0A9E-1EDD5043646B">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:58:29 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="20738C47-1783-3F57-9AD2-BBB5115C599C">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:38:42 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORAS DE VUELO" id="F879F5A9-8069-938C-B863-C3F848AB455B">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:41:04 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="8F692126-23A7-13B0-1506-E7954BBFC8C0">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 00:11:45 UTC</createdTime>
+<generatorID>965C4858-CB4B-B070-1F2A-754DFD21C475</generatorID>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<referedAttribute>5FF2F4B9-2904-2828-533E-3CB61BF0D408</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA4F6A03-1122-9A2A-643E-1928D62F0B63" name="PILOTO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:53:24 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15748D33-8582-0BEB-9AE0-0ADD7DE2D716</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

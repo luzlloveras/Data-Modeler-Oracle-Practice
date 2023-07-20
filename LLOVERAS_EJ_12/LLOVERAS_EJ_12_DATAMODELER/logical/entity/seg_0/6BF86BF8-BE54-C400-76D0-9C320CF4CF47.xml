@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BF86BF8-BE54-C400-76D0-9C320CF4CF47" name="VUELO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:43:01 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID " id="B35A318E-84F5-3B10-67D7-84209A225033">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:44:38 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORIGEN" id="B2DAFB5E-A8BF-3DA8-0E98-76EC13A4FB0E">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:44:50 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESTINO" id="B2085DCB-00B2-6A95-BFE2-5BBB12579B9E">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:44:59 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA" id="F9C831DD-25DC-AF0D-FD94-9C8474588082">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:45:10 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID TRIPULACION" id="CC960165-C252-968E-03B1-CC884E1AE8A8">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:49:21 UTC</createdTime>
+<generatorID>96E3E019-B15C-E43B-CD94-71E352642E6E</generatorID>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<referedAttribute>EFB3A3CC-5FC8-687F-63B7-1C500D084EAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO" id="B503EB79-7C87-CB4B-C9DF-6FBA58738171">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:50:43 UTC</createdTime>
+<generatorID>3D86EAD2-C247-7280-1C51-DF5026134D03</generatorID>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<referedAttribute>58C16002-9DEE-31A9-4A9A-34F87521BEEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0FAB095D-D0EF-5984-859E-C5C37421951F" name="VUELO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:44:47 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B35A318E-84F5-3B10-67D7-84209A225033</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="E4FD9144-7C8B-3E25-49D6-AACB6AB4A4B8">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 00:10:41 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<sourcePk>E6F5CBE9-E913-5F7C-0251-6F0FF619170B</sourcePk>
+<targetPk>588D601F-5D4C-AC98-8974-959877DA27C4</targetPk>
+<identifying>false</identifying>
+<nameOnSource>regresa</nameOnSource>
+<nameOnTarget>tiene</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>32829D5B-A7C1-ECE7-48DF-54849020FDDB</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>776746FD-8D4E-F476-CF69-6BEA9215335F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

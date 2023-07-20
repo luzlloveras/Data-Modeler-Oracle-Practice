@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8371DC00-B18C-EA52-8D5E-8ACD70DD7C45" name="MANTENIMIENTO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 00:11:18 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FECHA" id="05004C9A-C9E6-C963-9231-96D46132F0C6">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 00:12:16 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA" id="91DAEED7-66AF-BC5E-BBC4-C91877ACA7A3">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 00:12:29 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MECANICO" id="4AC113B8-B5CE-7F16-9108-14967157143B">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 00:12:39 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO" id="8616DF27-65FD-E531-8CC8-6421DB80042B">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 00:13:06 UTC</createdTime>
+<generatorID>B3699E58-E564-96F8-DC6F-F343799DF969</generatorID>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<referedAttribute>58C16002-9DEE-31A9-4A9A-34F87521BEEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="F8DCABF7-20E9-AAD4-DA65-99B26576C5B6">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 00:13:20 UTC</createdTime>
+<generatorID>58C98902-DB1E-778E-F9E8-8DD8B2D73B2A</generatorID>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<referedAttribute>5FF2F4B9-2904-2828-533E-3CB61BF0D408</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98284212-9518-D2F1-30F8-0D4C75293ABF" name="MANTENIMIENTO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-07 00:13:16 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_12_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="002A052C-1BDE-C8C5-927D-B3777A304CAD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8616DF27-65FD-E531-8CC8-6421DB80042B</attributeRef>
+<attributeRef>F8DCABF7-20E9-AAD4-DA65-99B26576C5B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
