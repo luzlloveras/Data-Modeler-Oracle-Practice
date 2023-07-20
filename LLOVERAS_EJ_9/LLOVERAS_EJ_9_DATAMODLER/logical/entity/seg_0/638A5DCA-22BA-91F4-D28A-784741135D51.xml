@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="638A5DCA-22BA-91F4-D28A-784741135D51" name="ETIQUETA DEL MEDICAMENTO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:46:50 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NRO DE ETIQUETA" id="9216E546-5C40-5D78-813B-CC28E346B942">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:46:58 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOSIS" id="C3DC399D-9E60-67B2-951A-FACEFEA10366">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:47:09 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DURACION DEL TRATAMIETNO" id="6DA1C300-EAB8-A5AA-0982-9EFCF0137A69">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:47:26 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA DE CADUCIDAD" id="F463DF85-B3F9-9571-1D55-28D37E94E6F8">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:47:45 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO" id="C5BE47D8-0FA9-3536-3DD7-EF83FF708B51">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 16:51:03 UTC</createdTime>
+<generatorID>98502FA7-74FE-6734-A8D1-112820CA3223</generatorID>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<referedAttribute>F48C2FA7-E05D-7C2A-DA95-AEC5ADD5C754</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A2931EA-1FBF-B724-DFA4-500F41DD3A15" name="ETIQUETA DEL MEDICAMENTO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:47:05 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9216E546-5C40-5D78-813B-CC28E346B942</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

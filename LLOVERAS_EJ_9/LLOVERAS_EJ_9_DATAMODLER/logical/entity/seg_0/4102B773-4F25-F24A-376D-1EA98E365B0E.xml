@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4102B773-4F25-F24A-376D-1EA98E365B0E" name="MEDICAMENTO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:45:39 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="F48C2FA7-E05D-7C2A-DA95-AEC5ADD5C754">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:45:45 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE MEDICAMENTO" id="CE1E908E-D4EE-2344-8CE1-E52F161B95D9">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:45:58 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COSTO" id="7AB998A2-7C00-19E6-D120-AE656F6BAA56">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:46:12 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NRO DE ETIQUETA" id="611307E5-259E-CEA6-543D-43A96EBD23CC">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 16:51:57 UTC</createdTime>
+<generatorID>98502FA7-74FE-6734-A8D1-112820CA3223</generatorID>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<referedAttribute>9216E546-5C40-5D78-813B-CC28E346B942</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E50AF431-5281-800C-7F2E-109B4EAD25E6" name="MEDICAMENTO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:45:52 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F48C2FA7-E05D-7C2A-DA95-AEC5ADD5C754</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7EAB1CE-5155-CD1D-A83C-C8B4596E044B" name="PRESCRIPCION">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:46:21 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NRO PRESCRIPCION" id="7F914AD9-9207-7C07-76DB-E36A1927344E">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:46:28 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA EMISION" id="23805FE0-27F2-A4C5-B3F0-EB9CAAD0FAEE">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:46:41 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NRO MEDICO" id="45F5AA77-C857-E41C-B57A-FB43D1B47983">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 16:50:06 UTC</createdTime>
+<generatorID>AE9665F7-6662-41D4-70FD-ACDEDD3CD978</generatorID>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<referedAttribute>F36E5B7C-294D-A44E-D3B0-CA1E1CDF9AEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO" id="9AB1064B-7523-D657-F346-447790FD0135">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 16:50:26 UTC</createdTime>
+<generatorID>CA2AA08E-266A-4EBA-2747-CA6D93567AAB</generatorID>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<referedAttribute>F48C2FA7-E05D-7C2A-DA95-AEC5ADD5C754</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BBFBB1A-6CD7-43D9-1129-66400F33E760" name="PRESCRIPCION PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 03:46:39 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_9_DATAMODLER</ownerDesignName>
+<engineerTo>
+<item key="93C115A9-A0C6-92E4-A690-2D8AD396BE72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F914AD9-9207-7C07-76DB-E36A1927344E</attributeRef>
+<attributeRef>9AB1064B-7523-D657-F346-447790FD0135</attributeRef>
+<attributeRef>45F5AA77-C857-E41C-B57A-FB43D1B47983</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

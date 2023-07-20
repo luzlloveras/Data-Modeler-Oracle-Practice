@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="FB1E84C9-3BD2-E757-7B77-D106416AEF05">
+<createdBy>I566304</createdBy>
+<modifiedBy>I566304</modifiedBy>
+<createdTime>2023-05-06 03:38:50 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="04FA32B7-6BA9-15D0-5FBE-911C6BB2F653" otype="Entity" vid="8DED83AB-A0AE-005D-C836-119F079DDA2B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="90" y="59" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="296E6F28-1D52-08F3-4ABF-365F2C7DFEB7" otype="Note" vid="64F00F29-5CBA-B21B-301B-D4550B3F2640">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="52" y="778" width="735" height="58"/>
+<comment>REGLAS PROGRAMATICAS
+1. Los medicamentos se facturan con el costo actual en el momento del alta del paciente.
+2. Las comisiones médicas pueden reflejar costos adicionales relacionados con complicaciones del paciente, solicitudes adicionales del paciente, etc.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="4102B773-4F25-F24A-376D-1EA98E365B0E" otype="Entity" vid="0B00FE8B-8529-3CBA-5047-73AF3FD712B1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="589" y="58" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="4BDD97F3-ACB9-2860-7308-5A5B0086186D" otype="Entity" vid="CE068C3F-27E3-8E7A-1C3C-11BE40F373BE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="338" y="370" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="638A5DCA-22BA-91F4-D28A-784741135D51" otype="Entity" vid="0C5BDEE8-5CE3-EAEC-BB70-A68F1CE96EE2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="882" y="53" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="AB78C5B5-7B41-5F83-24A6-ECD6FDA94DC4" otype="Entity" vid="C2DE17C5-5AE9-BCBE-FECC-468E5DA68FA0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="571" y="370" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B82124CC-64F0-DC7E-7335-B2BA15F5C758" otype="Entity" vid="FA34A959-A7D8-243B-F9D3-D2F6955BA880">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="101" y="373" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="C36199FA-D438-6029-D831-B11B4864F63B" otype="Note" vid="8E61B7FF-317D-4CB1-142B-386581DF3169">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="51" y="677" width="481" height="97"/>
+<comment>REGLAS DE PROCEDIMIENTO
+1.Los cambios de prescripciones solo pueden realizarlos los médicos con licencia.
+2.Los pacientes no pueden rellenar las prescripciones sin la firma de un médico.
+3.Los médicos no pueden eliminar etiquetas de medicamentos.
+4.Los pacientes no pueden cambiar la habitación del hospital sin la recomendación del médico.
+5.Los enfermeros no pueden reasignar pacientes sin la aprobación de un médico.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="F2B2B0E0-D411-16B2-138D-E4D45BD29DA5" otype="Note" vid="9E0068DD-1A69-415D-8468-D8452CF50F5E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="51" y="510" width="725" height="159"/>
+<comment>REGLAS ESTRUCTURALES 
+1. Un paciente es una persona que ha ingresado en el hospital.
+2. Cada asignación de habitación debe incluir el número de edificio y el número de habitación.
+3. Cada habitación puede estar ocupada por uno o más pacientes.
+4. Un médico debe tener un número de licencia válido.
+5. Cada medicamento debe estar prescrito por un médico.
+6. Cada medicamento prescrito debe tener una etiqueta con el número de etiqueta, la posología, la duración del tratamiento y la fecha de caducidad.
+7. Debe registrarse el código, el nombre y el costo del medicamento de todos los medicamentos.
+8. Cada prescripción debe tener un número y una fecha.
+9. Cada médico se puede asignar a más de un paciente.
+10 . Cada paciente debe tener asignado un médico.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F7EAB1CE-5155-CD1D-A83C-C8B4596E044B" otype="Entity" vid="069828D2-BD0A-03BD-CCCA-BF8C04D78B91">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="337" y="61" width="170" height="110"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="3A12F2F0-A3F5-93CF-1FFE-377A67E6078C" otype="Relation" vid_source="C2DE17C5-5AE9-BCBE-FECC-468E5DA68FA0" vid_target="CE068C3F-27E3-8E7A-1C3C-11BE40F373BE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="571" y="425"/>
+<point x="508" y="425"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="87EDCBD9-3687-F73E-AD0A-E92FA2303F4A" otype="Relation" vid_source="FA34A959-A7D8-243B-F9D3-D2F6955BA880" vid_target="8DED83AB-A0AE-005D-C836-119F079DDA2B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<sourceLabel class="oracle.dbtools.crest.model.design.Label">
+<site>0</site>
+<labelBounds x="195" y="329" width="39" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</sourceLabel>
+<targetLabel class="oracle.dbtools.crest.model.design.Label">
+<site>2</site>
+<labelBounds x="195" y="213" width="39" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</targetLabel>
+<points>
+<point x="195" y="373"/>
+<point x="195" y="169"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="98502FA7-74FE-6734-A8D1-112820CA3223" otype="Relation" vid_source="0B00FE8B-8529-3CBA-5047-73AF3FD712B1" vid_target="0C5BDEE8-5CE3-EAEC-BB70-A68F1CE96EE2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<sourceLabel class="oracle.dbtools.crest.model.design.Label">
+<site>0</site>
+<labelBounds x="769" y="81" width="44" height="29"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</sourceLabel>
+<targetLabel class="oracle.dbtools.crest.model.design.Label">
+<site>2</site>
+<labelBounds x="813" y="113" width="63" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</targetLabel>
+<points>
+<point x="759" y="110"/>
+<point x="882" y="110"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="AE9665F7-6662-41D4-70FD-ACDEDD3CD978" otype="Relation" vid_source="8DED83AB-A0AE-005D-C836-119F079DDA2B" vid_target="069828D2-BD0A-03BD-CCCA-BF8C04D78B91">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="260" y="115"/>
+<point x="337" y="115"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="CA2AA08E-266A-4EBA-2747-CA6D93567AAB" otype="Relation" vid_source="0B00FE8B-8529-3CBA-5047-73AF3FD712B1" vid_target="069828D2-BD0A-03BD-CCCA-BF8C04D78B91">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="589" y="114"/>
+<point x="507" y="114"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E737B022-1CCD-447F-3022-A1310BB3DA03" otype="Relation" vid_source="FA34A959-A7D8-243B-F9D3-D2F6955BA880" vid_target="CE068C3F-27E3-8E7A-1C3C-11BE40F373BE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="271" y="426"/>
+<point x="338" y="426"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
