@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3101DE72-E23C-E2CF-EE5B-9CB1F500D05B" name="PROVINCIA">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:35:48 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="253D3E82-5D13-9853-9AAC-1AA05E6F7750">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:35:54 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="180102A2-147B-B1E9-E39F-5176ED1FBCFC">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:36:05 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="328AAA65-CD03-9BF5-C4CD-F7EFB784C606" name="PROVINCIA PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:35:59 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>253D3E82-5D13-9853-9AAC-1AA05E6F7750</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DCA8626-89F3-965B-8E46-E623FFA760AA" name="CAMIONERO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:27:32 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="D0505E19-5673-6F88-A9EF-C8D581CC253E">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:27:37 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="BAD39755-4093-8A79-0AA5-C041FFB1472C">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:27:51 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="8872F2DE-82B8-54AE-37F4-EF2575FE5F2D">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:28:02 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="D06CF0A1-D191-1077-FF63-D02EDBDB3C00">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:28:38 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO" id="7B51CAD7-D27B-C386-7001-C32AF232B7D1">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:28:49 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POBLACION" id="7A9AB771-6A9D-A8D9-BA2C-6FCD3EFC9762">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:28:57 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="454704EB-E0E9-C8ED-CFE0-B9C63DD1A75D" name="CAMIONERO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:27:49 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0505E19-5673-6F88-A9EF-C8D581CC253E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="695043A6-6DD6-DFF8-E082-75CEDBBBB674" name="CAMION">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:38:13 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MATRICULA" id="8DCEF808-2F7B-A0CA-2B32-684FD1F30133">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:38:33 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODELO" id="D2EFB1C2-22AD-C504-F372-DA9659ED0777">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:38:34 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO" id="1F686A84-6FB7-E54D-27C2-CAF4EC047CF3">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:35:19 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POTENCIA" id="86541704-2DB5-C263-056C-C8C4F1151A2A">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 23:35:01 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE21BFCA-3E57-48E0-9BCC-22A1EC3291C0" name="CAMION PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 22:38:43 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_11_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E1E9CDF1-2547-AB60-ABF8-11BA0A718AE9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8DCEF808-2F7B-A0CA-2B32-684FD1F30133</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
