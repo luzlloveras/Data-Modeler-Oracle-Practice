@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17B937AB-3C1D-C65B-2E9D-8DD9C9E66641" name="CONTRATO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:27:53 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="542756C9-D932-B0DA-8335-50FA8064EB05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NRO DE CONTRATO" id="836236D4-393A-1266-55AC-62FFA1FA45C7">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:28:17 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="542756C9-D932-B0DA-8335-50FA8064EB05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA DE EMISION" id="4762D0CC-F1D1-09C8-DDBD-CAF3B1EDB9A0">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:28:40 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="542756C9-D932-B0DA-8335-50FA8064EB05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="25FED22E-AB28-F2D2-F7D4-ABA991217FF7">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:47:45 UTC</createdTime>
+<generatorID>0F3AC326-C38F-FC09-CF60-1BDA14B04267</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="542756C9-D932-B0DA-8335-50FA8064EB05" value="true"/>
+</engineerTo>
+<referedAttribute>6DA06162-9421-00F9-29B0-1397AC469E4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5862C64F-838B-D316-7FD6-05634E6CF534" name="CONTRATO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:28:30 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="542756C9-D932-B0DA-8335-50FA8064EB05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>836236D4-393A-1266-55AC-62FFA1FA45C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

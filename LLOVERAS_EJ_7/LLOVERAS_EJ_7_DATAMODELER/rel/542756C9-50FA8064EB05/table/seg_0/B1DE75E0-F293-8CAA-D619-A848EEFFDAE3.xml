@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1DE75E0-F293-8CAA-D619-A848EEFFDAE3" name="CONTRATO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>17B937AB-3C1D-C65B-2E9D-8DD9C9E66641</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NRO_DE_CONTRATO" id="B49EC38C-8F24-CB75-A2F3-65CB6E4B51C4">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>836236D4-393A-1266-55AC-62FFA1FA45C7</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_DE_EMISION" id="E4C06261-56B4-E819-8126-A7F0CC416498">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>4762D0CC-F1D1-09C8-DDBD-CAF3B1EDB9A0</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PILOTO_ID" id="ECE02EB2-73BD-CDFD-6AAC-AAB52EDE5D34">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>25FED22E-AB28-F2D2-F7D4-ABA991217FF7</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F35147FC-78E2-368F-0FD7-5D5A1C8820B4" referredColumn="D51F7117-CAF3-4A32-A45B-C45B6124CA34"/>
+</associations>
+</Column>
+<Column name="TEMPORARIO_TEMPORARIO_ID" id="B29B89DB-E20C-8BE1-D5D9-A7779E6F979F">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCB7D5F0-7DBB-B962-4D80-8CEB1A51240E" referredColumn="51918969-C069-2392-1137-B97963289F9A"/>
+</associations>
+</Column>
+<Column name="PLANTA_PLANTA_ID" id="C2E4671A-0464-8838-FF97-C0C631AE50B3">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="590AD6F9-5E5B-26B7-04C4-8247D0E5AF1B" referredColumn="C5C67F89-8EDC-F9DC-E6A2-4A0D0DD5F90C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0665624-A010-B838-1091-8A0542597503" name="CONTRATO_PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>5862C64F-838B-D316-7FD6-05634E6CF534</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B49EC38C-8F24-CB75-A2F3-65CB6E4B51C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82A585D1-B28D-AB11-159E-21B0AAB348BF" name="CONTRATO_TEMPORARIO_FK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>9DC5107D-7E30-F524-8F92-AAE9CD6D94AD</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B29B89DB-E20C-8BE1-D5D9-A7779E6F979F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="589A215B-EC91-4418-C64C-058BA436B997" name="CONTRATO_PLANTA_FK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>64AD8F40-1074-99CB-B0B3-F0F9EBDCEE52</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2E4671A-0464-8838-FF97-C0C631AE50B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2290A159-771A-1CF0-B8C5-E9F5665D0F06" name="CONTRATO_PILOTO_FK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>0F3AC326-C38F-FC09-CF60-1BDA14B04267</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECE02EB2-73BD-CDFD-6AAC-AAB52EDE5D34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

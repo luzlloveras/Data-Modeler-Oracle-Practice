@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF78D3B6-3C4A-25C0-5658-8C94AC1BA5BE" name="AVION">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:20:43 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="542756C9-D932-B0DA-8335-50FA8064EB05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MATRICULA" id="1E34206C-67F7-7F8C-CBDA-36E562E5A43C">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:20:55 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="542756C9-D932-B0DA-8335-50FA8064EB05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARCA" id="1BAC4543-F265-1989-F8C2-F030FD252805">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:24:07 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="542756C9-D932-B0DA-8335-50FA8064EB05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODELO" id="D2C0DA58-D24B-027F-42F9-98DB3AA97AD8">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:24:18 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="542756C9-D932-B0DA-8335-50FA8064EB05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA ULTIMO MANTENIMIENTO" id="248407E0-E0EB-A1BA-B94D-569E6101CF26">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:24:51 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="542756C9-D932-B0DA-8335-50FA8064EB05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISPONIBILIDAD DE PLAZAS" id="9F9F02E7-66E7-90F8-4ABB-9C6B904A9EFD">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:25:02 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="542756C9-D932-B0DA-8335-50FA8064EB05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33ADDFF3-3043-4DBC-9E5D-85DC4EC8FFB5" name="AVION PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:24:01 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="542756C9-D932-B0DA-8335-50FA8064EB05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E34206C-67F7-7F8C-CBDA-36E562E5A43C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

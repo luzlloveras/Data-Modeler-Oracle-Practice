@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D0AAD2D-5683-605E-E388-E3FA380E7D42" name="PILOTO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>228550D1-7686-C0EB-5EB4-C3BDABE05CEC</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D51F7117-CAF3-4A32-A45B-C45B6124CA34">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>6DA06162-9421-00F9-29B0-1397AC469E4F</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_DE_PILOTO" id="8E5A5595-E200-0ABB-FAA0-4F84E21FEFA7">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>8C6F4EA6-AD50-F179-52BE-1BDD97631CE5</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="9D5A5D89-07BD-8AB0-303E-36A7AFB742EC">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>832E840D-4479-CFCC-6A57-CD8414246BBD</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="415ECC1B-98D9-6650-4A67-C00B763839AE">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>77288F92-086A-59AC-A3B3-23531B460781</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNI" id="2E92ED3E-4C89-0C55-4561-4EDCA6EF8D2C">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>0C39B16B-1884-611F-E1C6-D296E584BA7E</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOMICILIO" id="D6335CC9-2C21-9A39-2103-553EFD05EAA7">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>7E7DF2B7-DBC4-EDD4-1A3C-32D906066871</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="86D51E95-2C12-E060-EF43-7EA84D00936D">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>8B2D4828-5CE4-DC6B-497A-E2162F409133</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONICO" id="2F19BD4D-6983-C558-BE12-D9387EE105A0">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>87952A86-6F38-624A-53F5-4BB8BAF9531C</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F18D8745-187E-3150-3341-3307F619237A" name="PILOTO_PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-06 02:55:30 UTC</createdTime>
+<generatorID>4F188BB1-15C1-29AB-8784-257146E15F74</generatorID>
+<ownerDesignName>LLOVERAS_EJ_7_DATAMODELER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D51F7117-CAF3-4A32-A45B-C45B6124CA34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
