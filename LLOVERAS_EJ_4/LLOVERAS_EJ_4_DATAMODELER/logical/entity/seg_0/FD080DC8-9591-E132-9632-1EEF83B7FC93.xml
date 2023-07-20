@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD080DC8-9591-E132-9632-1EEF83B7FC93" name="VESTIDO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>AB2AF95F-C015-9DA4-0188-766BDC50F9FE</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TALLA CINTURA" id="C81BD204-AD70-097E-6098-983E8DDF9B55">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>7D9C38AE-2394-97F2-C907-805D1BBC5E73</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LONGITUD" id="F32200F7-6B79-B035-3C6A-5EBBF56B18C2">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>59B99D7E-D8AE-C289-6CE8-6B79C0EBEDCC</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

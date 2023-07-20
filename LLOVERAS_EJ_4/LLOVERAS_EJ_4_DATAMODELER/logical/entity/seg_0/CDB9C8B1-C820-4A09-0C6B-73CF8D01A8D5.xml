@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDB9C8B1-C820-4A09-0C6B-73CF8D01A8D5" name="ARTICULO">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>2DE696E1-24AE-55BF-0B61-8B103D1229D9</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ITEM" id="04116318-25D5-53D6-9D54-B62277CC78B3">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>CF66570A-FBE4-B195-D1EE-88ACA1982877</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO DE PRENDA" id="F9AC8D90-1C9C-8C60-5689-5ED84D24191F">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>1645FD88-6F8D-76CA-75DE-FCA0D64C45FA</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="E8801A53-660D-0D40-B0A8-D303A41213B4">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>785D9EBA-A6B8-530E-8F0C-FB8294EED170</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIO" id="54D49BEC-DFD3-060E-57C5-1D21CAA1A448">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>D2297ED3-77A2-0A73-295A-B7ADFBB9AEA4</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1319C282-8A4C-22AB-E946-44E07BBFEC30" name="ARTICULO PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>430858B3-6966-3DB7-0CD8-B1434581E5C6</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04116318-25D5-53D6-9D54-B62277CC78B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

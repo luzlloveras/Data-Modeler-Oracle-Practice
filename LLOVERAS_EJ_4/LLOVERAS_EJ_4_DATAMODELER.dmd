@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="LLOVERAS_EJ_4_DATAMODELER" id="D1A851E2-97D0-F933-49E9-D8235A006ABF" version="3.5">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:35:19 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D1A851E2-97D0-F933-49E9-D8235A006ABF</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C125E351-7EAE-83A2-DA17-C66F820AF0B9">
+<designStoragePath>C:\Users\I566304\OneDrive - SAP SE\Documents\Personal Things\UTN\BASE DE DATOS\Ejercicios\DATAMODELER EJERCICIOS ( luz )\LLOVERAS_EJ_4\LLOVERAS_EJ_4_DATAMODELER</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

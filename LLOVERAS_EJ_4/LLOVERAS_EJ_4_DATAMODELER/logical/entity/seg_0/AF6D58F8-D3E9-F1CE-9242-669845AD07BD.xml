@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF6D58F8-D3E9-F1CE-9242-669845AD07BD" name="FALDAv1">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>D44043BF-DB49-0773-9F97-66F32E3062BE</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ITEM" id="CAA1276B-FD54-F0D0-B4D3-4F5AD80D778B">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>BD040446-59C3-43C1-86F5-AEF61D61F7C0</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEDIDA CADERA" id="7059B8AD-BEFC-8BF8-DD34-7C78CE3DB020">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>5160AF2B-2710-F703-97B2-56546DDF2933</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LONGITUD" id="5B0F4F80-B190-6B63-ACCB-247A2A01861C">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>39A75E8B-142D-C6D2-F6FC-07FE821B184A</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8F925271-A2DC-0F5C-2CFD-B4F71B5A94C9" name="FALDAv1 PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 14:36:35 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_4_DATAMODELER</ownerDesignName>
+<importedID>A18849DC-E8CC-2F59-B9FF-F5E33A96C783</importedID>
+<engineerTo>
+<item key="F26E771F-FDF5-046A-2A64-93B6DF42DF20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CAA1276B-FD54-F0D0-B4D3-4F5AD80D778B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
