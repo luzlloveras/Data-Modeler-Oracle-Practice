@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5D03311-9038-7894-4687-1F598F97D1FA" name="ETAPA">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:34:43 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUMERO" id="956765E7-14C9-0519-CCEB-46AB4A2819DD">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:35:08 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD KM RECORRIDOS" id="948EAE65-9720-5C9B-18AE-1B57DE8C2D22">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:35:20 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE POBLACION PARTIDA" id="D9C02E23-A98A-F549-6A3C-5A61A6F6FA78">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:35:45 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE POBLACION LLEGADA" id="CD045703-BE30-E6E7-1EA2-E3EF13912372">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:36:07 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CATEGORIA" id="622AD227-D403-7C68-BBDA-0FE45C25D34E">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:58:16 UTC</createdTime>
+<generatorID>00D10C6A-DE52-E9B1-AC33-B37B57CD4CA4</generatorID>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<referedAttribute>E357E6E7-70A4-1A52-2396-A8F67EB56B9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C239AC7D-EB94-BE59-E52B-4F7220C9E290" name="ETAPA PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:35:18 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>956765E7-14C9-0519-CCEB-46AB4A2819DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

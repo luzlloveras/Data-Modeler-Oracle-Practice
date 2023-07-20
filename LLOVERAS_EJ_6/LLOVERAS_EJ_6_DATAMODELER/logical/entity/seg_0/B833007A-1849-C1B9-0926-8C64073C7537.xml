@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B833007A-1849-C1B9-0926-8C64073C7537" name="CICLISTA">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:30:48 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NRO CORREDOR" id="18BB2A66-8C55-DE4B-099B-9DA5F976EA94">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:30:59 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EQUIPO" id="076B2625-A581-52CA-7644-6691E555A008">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:31:07 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA NACIMIENTO" id="CCE0CE55-B5FB-07C8-CF94-D4825810CB70">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:31:31 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EDAD" id="B2707F1F-DCCD-564A-A72F-2D1A1A32F55A">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:31:45 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIONALIDAD" id="A39DD1F6-7480-B9B4-7119-B3869ABE5EFE">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:33:33 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="41A5022E-D460-9620-2860-8AF573C97568">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:59:43 UTC</createdTime>
+<generatorID>3D173229-A9D8-0D8B-143B-27432BE1FA53</generatorID>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<referedAttribute>28784EDE-8B90-E6D4-F05E-0A842C9316A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25DE430F-FEC0-B666-A293-46733035C186" name="CICLISTA PK">
+<createdBy>I566304</createdBy>
+<createdTime>2023-05-05 23:31:24 UTC</createdTime>
+<ownerDesignName>LLOVERAS_EJ_6_DATAMODELER</ownerDesignName>
+<engineerTo>
+<item key="E12BF8D2-1E21-A75D-3D7C-F65C6EC48D43" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18BB2A66-8C55-DE4B-099B-9DA5F976EA94</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
